@@ -19,6 +19,7 @@ Another method is to answer on the message with a thank phrase.
 ![](https://chojos.lewds.de/VvTRamr6Il.png)
 
 You can also mention the user instead. This can be done via mention or with some kind of fuzzy matching.
+
 ![](https://chojos.lewds.de/jp05ifXGet.png)
 
 Which version you want to allow can be defined in the settings.
