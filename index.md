@@ -25,6 +25,7 @@ Which version you want to allow can be defined in the settings.
 
 # Reputation Profile
 Each user will have its own reputation profile. The top users get some nice badges on it.
+
 ![Reputation profile with badge](https://chojos.lewds.de/191hvsKNFp.png)
 
 # Roles
