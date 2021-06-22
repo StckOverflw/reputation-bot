@@ -55,13 +55,9 @@ User A can only thank user B when B has at least one message after the first mes
 
 Setup is easy.
 
-- Set your language with the /locale command.
-- Define a manager role for ppl which can change settings of the bot with /roles managerrole
-- Add reputation roles which users will get when they reach a amount of reputation with /roles add
-- Load the predefined thankwords for your language with `/thankwords loaddefault <language>`. You can load multiple defaults. You can also add own thankwords with `/thankwords add <thankword>`.
-- Add channels where users can receive reputation with `/channel add`
+Just execute the /setup command and follow the instructions.
 
-Optional steps:
+After this, there are some optional steps you may want to take a look at.
 - Use the scan command to scan the messages in a channel for thank phrases. This will backfill your reputations. You can scan up to 100k messages in a channel. This will take some time and you can only scan one channel at a time.
 - Set your own reputation emote with `/repsettings reaction`. This can be a custom emote from your server or a normal discord emote.
 - Set the legacy prefix. All slash commands also exists as legacy text commands.
