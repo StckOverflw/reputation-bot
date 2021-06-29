@@ -80,3 +80,6 @@ Team commands are:
 - `scan` - Scan a channel for reputation messages.
 
 # You can invite the bot with this [link](https://discord.com/api/oauth2/authorize?client_id=834843896579489794&permissions=1342532672&scope=bot%20applications.commands).
+
+---
+**[Main Page](https://rainbowdashlabs.github.io/reputation-bot/) | [TOS & Privacy](https://rainbowdashlabs.github.io/reputation-bot/tos-privacy) | [Invite](https://discord.com/api/oauth2/authorize?client_id=834843896579489794&permissions=1342532672&scope=bot%20applications.commands) | [Support](https://discord.gg/5DrGmz7pHj)**
