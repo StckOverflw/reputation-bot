@@ -52,6 +52,18 @@ This list is without any guarantees for completeness or currency
   You personal data will be deleted 14 days after you left the server.\
   Your received reputation will be deleted completely. Your user id will be removed from any given reputation. Given
   reputation will not be removed.
+- GDPR Data\
+  When you request your data we will save your id, request time and the time we delivered the data to you. This data
+  will be deleted after 90 days. We do this to keep track of delivered data and to find any errors or unfullfilled
+  requests. We do this as well to verify that you received your data.
+
+## Deletion
+
+If you want to delete or request your data take a look at
+the [FAQ](https://rainbowdashlabs.github.io/reputation-bot/faq).
   
 ---
-**[Main Page](https://rainbowdashlabs.github.io/reputation-bot/) | [TOS & Privacy](https://rainbowdashlabs.github.io/reputation-bot/tos-privacy) | [Invite](https://discord.com/api/oauth2/authorize?client_id=834843896579489794&permissions=1342532672&scope=bot%20applications.commands) | [Support](https://discord.gg/5DrGmz7pHj)**
+**[Main Page](https://rainbowdashlabs.github.io/reputation-bot/)
+| [TOS & Privacy](https://rainbowdashlabs.github.io/reputation-bot/tos-privacy)
+| [Invite](https://discord.com/api/oauth2/authorize?client_id=834843896579489794&permissions=1342532672&scope=bot%20applications.commands)
+| [Support](https://discord.gg/5DrGmz7pHj) | [FAQ](https://rainbowdashlabs.github.io/reputation-bot/faq)**
