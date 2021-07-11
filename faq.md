@@ -1,7 +1,6 @@
 # Frequently asked questions
 
-<details>
-<summary><strong>What are those emojis and what do they mean?</strong></summary>
+### What are those emojis and what do they mean?
 
 Those emojis indicate what the bot does with a message:\
 
@@ -13,10 +12,7 @@ Those emojis indicate what the bot does with a message:\
 
 A bot admin can disable this emojis in the `repsettings`.
 
-</details>
-
-<details>
-<summary><strong>Why cant I give reputation to user XY?</strong></summary>
+### Why cant I give reputation to user XY?
 
 This can have several reasons:
 
@@ -32,11 +28,7 @@ To thank a user make sure that:
 
 You can also give reputation to users you currently share or recently shared a voice channel with.
 
-</details>
-
-
-<details>
-<summary><strong>What is a context?</strong></summary>
+### What is a context?
 
 In order to resolve targets of a message and check which users are qualified to receive reputation, we build a context.
 This context contains all users which are qualified to receive reputation and is build for every message when the bot
@@ -52,10 +44,7 @@ thank duration already ran out.\
 Finally we add also the users which share a voice channel with the message author and the users which shared a voice
 channel with the users withing the max message age.
 
-</details>
-
-<details>
-<summary><strong>What roles will be managed by the bot?</strong></summary>
+### What roles will be managed by the bot?
 
 The bot will manage all roles which are registered as reputation roles.\
 The bot will always check the user roles when a user receives reputation. If you add a new role, the bot will adjust the
@@ -64,10 +53,7 @@ user roles, when this users receives reputation again.
 When the bot updates user roles it will first remove all roles registered as reputation roles from the user.\
 It will then add the new reputation role to the user.
 
-</details>
-
-<details>
-<summary><strong>How can I remove reputation of a user?</strong></summary>
+### How can I remove reputation of a user?
 
 How you can remove reputation depends on the way the reputation was given to the user.
 
@@ -77,10 +63,7 @@ Delete the message
 **Added by Reaction**\
 Delete the reaction of the user
 
-</details>
-
-<details>
-<summary><strong>A user has left the server but still shows up in top command</strong></summary>
+### A user has left the server but still shows up in top command
 
 The reputation of a user will be removed 14 days after the user has left the server.
 
@@ -90,10 +73,7 @@ users are still in the top list.
 You can remove all reputation of a single user with the `prune user <userid>` command.\
 Alternatively you can remove reputation of all users which are no longer on this guild with the `prune guild` command.
 
-</details>
-
-<details>
-<summary><strong>How can I request my data?</strong></summary>
+### How can I request my data?
 
 You have to be on a server with the Reputation Bot. If you dont have one, join the support server.
 
@@ -104,10 +84,8 @@ id. User ids of other users are removed and will not be included in your data.
 
 You will receive the data within a few hours.\
 You can request your data every 30 days.
-</details>
 
-<details>
-<summary><strong>How can I request deletion of my data?</strong></summary>
+### How can I request deletion of my data?
 
 You have to be on a server with the Reputation Bot. If you dont have one, join the support server.
 
@@ -120,7 +98,7 @@ You may request your data again after some time, if you want to check that your 
 We will delete all your received reputation on all servers.\
 We will remove your user id on every given reputation by you, but we will not delete these reputations, since they dont
 belong to you.
-</details>
+
 
 ---
 **[Main Page](https://rainbowdashlabs.github.io/reputation-bot/)
