@@ -1,5 +1,14 @@
 # Frequently asked questions
 
+- [What are those emojis and what do they mean?](#what-are-those-emojis-and-what-do-they-mean)
+- [Why cant I give reputation to user XY?](#why-cant-i-give-reputation-to-user-xy)
+- [What is a context?](#what-is-a-context)
+- [What roles will be managed by the bot?](#what-roles-will-be-managed-by-the-bot)
+- [How can I remove reputation of a user?](#how-can-i-remove-reputation-of-a-user)
+- [A user has left the server but still shows up in top command](#a-user-has-left-the-server-but-still-shows-up-in-top-command)
+- [How can I request my data?](#how-can-i-request-my-data)
+- [How can I request deletion of my data?](#how-can-i-request-deletion-of-my-data)
+
 ### What are those emojis and what do they mean?
 
 Those emojis indicate what the bot does with a message:\
