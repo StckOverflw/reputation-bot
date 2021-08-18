@@ -17,7 +17,9 @@ Those emojis indicate what the bot does with a message:\
 - 💤 ➜ Receiver was on cooldown
 - 🔍 ➜ No receiver was found
 - ❓ ➜ Receiver has no recent messages in this channel and is mising in the context
+- ❔ ➜ Donor is not present in channel
 - 🕛 ➜ The referenced message is too old
+- 🗨️ ➜ User was prompted for reputation.
 
 A bot admin can disable this emojis in the `repsettings`.
 
