@@ -1,8 +1,8 @@
 # Terms of Service
 
 These Terms of Service and Privacy regulation only apply to the public hosted instance which can be invited with this
-[link](https://discord.com/api/oauth2/authorize?client_id=834843896579489794&permissions=1342532672&scope=bot%20applications.commands)/
-This Bot will always have the ID `834843896579489794`.
+[link](https://discord.com/api/oauth2/authorize?client_id=871322553698906142&permissions=1342532672&scope=bot%20applications.commands)/
+This Bot will always have the ID `871322553698906142`.
 
 ## Terms
 
@@ -65,5 +65,5 @@ the [FAQ](https://rainbowdashlabs.github.io/reputation-bot/faq).
 ---
 **[Main Page](https://rainbowdashlabs.github.io/reputation-bot/)
 | [TOS & Privacy](https://rainbowdashlabs.github.io/reputation-bot/tos-privacy)
-| [Invite](https://discord.com/api/oauth2/authorize?client_id=834843896579489794&permissions=1342532672&scope=bot%20applications.commands)
+| [Invite](https://discord.com/api/oauth2/authorize?client_id=871322553698906142&permissions=1342532672&scope=bot%20applications.commands)
 | [Support](https://discord.gg/5DrGmz7pHj) | [FAQ](https://rainbowdashlabs.github.io/reputation-bot/faq)**

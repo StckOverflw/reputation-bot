@@ -71,8 +71,8 @@ After this, there are some optional steps you may want to take a look at.
 
 - Use the `/scan` command to scan the messages in a channel for thank phrases. This will backfill your reputations. You
   can scan up to 100k messages in a channel. This will take some time and you can only scan one channel at a time.
-- Set your own reputation emote with `/repsettings reaction`. This can be a custom emote from your server or a normal
-  discord emote.
+- Set your own reputation emote with `/reaction main`. This can be a custom emote from your server or a normal
+  discord emote. you can also add more additional emotes with `/reactions add`.
 - Set the legacy prefix. All slash commands also exists as legacy text commands.
 - Use the `/repsettings` command to tweak your settings.
 - User the `/thankwords check` command to check if a message would give reputation.
@@ -84,20 +84,23 @@ User commands are:
 - `rep` - Shows the user reputation or reputation of another user.
 - `top` - Shows the top users from this server.
 - `info` - Shows various informations about the bot.
+- `dashboard` - metrics about your server
 
 Team commands are:
 
 - `repsettings` - Manage your server settings
+- `reactions` - Manage the reactions used to give reputation
 - `channel` - Manage reputation channel
 - `roles` - Manage reputation and bot roles
 - `locale` - Change the bot locale
 - `log` - Get the recent donated or received reputation of a user. Or reputation information about a message.
 - `scan` - Scan a channel for reputation messages.
+- `prune` - Remove all reputations or a user or of users which are no longer on the guild (Removal of leaving users will be handled by us automatically. You wont need this normally) 
 
-# You can invite the bot with this [link](https://discord.com/api/oauth2/authorize?client_id=834843896579489794&permissions=1342532672&scope=bot%20applications.commands).
+# You can invite the bot with this [link](https://discord.com/api/oauth2/authorize?client_id=871322553698906142&permissions=1342532672&scope=bot%20applications.commands).
 
 ---
 **[Main Page](https://rainbowdashlabs.github.io/reputation-bot/)
 | [TOS & Privacy](https://rainbowdashlabs.github.io/reputation-bot/tos-privacy)
-| [Invite](https://discord.com/api/oauth2/authorize?client_id=834843896579489794&permissions=1342532672&scope=bot%20applications.commands)
+| [Invite](https://discord.com/api/oauth2/authorize?client_id=871322553698906142&permissions=1342532672&scope=bot%20applications.commands)
 | [Support](https://discord.gg/5DrGmz7pHj) | [FAQ](https://rainbowdashlabs.github.io/reputation-bot/faq)**

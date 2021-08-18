@@ -112,5 +112,5 @@ belong to you.
 ---
 **[Main Page](https://rainbowdashlabs.github.io/reputation-bot/)
 | [TOS & Privacy](https://rainbowdashlabs.github.io/reputation-bot/tos-privacy)
-| [Invite](https://discord.com/api/oauth2/authorize?client_id=834843896579489794&permissions=1342532672&scope=bot%20applications.commands)
+| [Invite](https://discord.com/api/oauth2/authorize?client_id=871322553698906142&permissions=1342532672&scope=bot%20applications.commands)
 | [Support](https://discord.gg/5DrGmz7pHj) | [FAQ](https://rainbowdashlabs.github.io/reputation-bot/faq)**
