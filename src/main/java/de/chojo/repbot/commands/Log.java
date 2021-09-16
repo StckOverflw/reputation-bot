@@ -29,6 +29,7 @@ import java.util.Optional;
 import java.util.function.Function;
 
 public class Log extends SimpleCommand {
+    private static final int DESCRIPTION_SIZE = 3900;
     private final ShardManager shardManager;
     private final ReputationData reputationData;
     private final Localizer loc;
@@ -179,11 +180,14 @@ public class Log extends SimpleCommand {
     private String mapUserLogEntry(Guild wrapper, List<ReputationLogEntry> logEntries, Function<ReputationLogEntry, Long> userId) {
         var loc = this.loc.getContextLocalizer(wrapper);
         List<String> entries = new ArrayList<>();
+        var charCount = 0;
         for (var logEntry : logEntries) {
             var thankType = loc.localize("thankType." + logEntry.type().name().toLowerCase(Locale.ROOT));
             var jumpLink = createJumpLink(wrapper, logEntry);
-            entries.add(String.format("**%s** %s %s",
-                    thankType, User.fromId(userId.apply(logEntry)).getAsMention(), jumpLink));
+            var entry = String.format("**%s** %s %s",                    thankType, User.fromId(userId.apply(logEntry)).getAsMention(), jumpLink);
+            if (charCount + entry.length() >= DESCRIPTION_SIZE) break;
+            charCount += entry.length();
+            entries.add(entry);
         }
         return String.join("\n", entries);
     }
@@ -194,11 +198,15 @@ public class Log extends SimpleCommand {
         var loc = this.loc.getContextLocalizer(guild);
 
         List<String> entries = new ArrayList<>();
+        var charCount = 0;
         for (var logEntry : logEntries) {
             var jumpLink = createJumpLink(guild, logEntry);
             var thankType = loc.localize("thankType." + logEntry.type().name().toLowerCase(Locale.ROOT));
-            entries.add(String.format("**%s** %s ➜ %s **|** %s",
-                    thankType, User.fromId(logEntry.donorId()).getAsMention(), User.fromId(logEntry.receiverId()).getAsMention(), jumpLink));
+            var entry = String.format("**%s** %s ➜ %s **|** %s",
+                    thankType, User.fromId(logEntry.donorId()).getAsMention(), User.fromId(logEntry.receiverId()).getAsMention(), jumpLink);
+            if (charCount + entry.length() >= DESCRIPTION_SIZE) break;
+            charCount += entry.length();
+            entries.add(entry);
         }
         return String.join("\n", entries);
     }
